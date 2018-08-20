@@ -1,4 +1,4 @@
-# MiguelitoBot (TheCollerinesBot)
+# GograBot (GograBot)
 
 ## Requirements
 
@@ -51,7 +51,7 @@ python ./collerinesBot.py
 
 We need to change the token value in config.ini file: token=<token_id value> with a token given by botFather (ask for more info ;) ;) )
 
-After that, we need to change the groupid value in config.ini too because MiguelitoBot is filtered for just one group (for private use :) ) 
+After that, we need to change the groupid value in config.ini too because GograBot is filtered for just one group (for private use :) ) 
 
 ### How to get the groupId
 ```
@@ -98,18 +98,18 @@ userNames.json ->
 dataDictionary.json
 
 
-## How works Miguelito
+## How works GograBot
 ### Commands
 #### Add Youtube songs to Spotify List
 ```
-Miguelito añade Numb Linkin Park -- 
-Miguelito añade <songname> <groupName - Not necessary if is the first song in Spotify with the songname> 
+GograBot añade Numb Linkin Park -- 
+GograBot añade <songname> <groupName - Not necessary if is the first song in Spotify with the songname> 
 
 ```
 ``` 
 <some text>  https://www.youtube.com/watch?v=hJ_eVIZkjZE --
 <some text>  <youtube link video wt complete url or shorted url>
-Miguelito get the video name and remove all text that be inside () and [] to search in Spotify API.
+GograBot get the video name and remove all text that be inside () and [] to search in Spotify API.
 If he can't find the song he will try with the different video-tags of youtube
 
 or a spotify song link with "track/<idsong>-/whatever https://open.spotify.com/track/1TrUEdT8FmBmcKVyfucbnw?si=BXGgTDv_Qs-8-Sv_NdrBHA
@@ -117,19 +117,19 @@ or a spotify song link with "track/<idsong>-/whatever https://open.spotify.com/t
 ```
 #### Remember that...
 ```
-Miguelito recuerda a las hh:mm some text -> remember to the user that sent it some text at that hour of same day or next day is the time was passed.
-Miguelito recuerda el dd/mm/yyyy some text -> remember to the user that sent it some text at actual hour/min.
-Miguelito recuerda el dd/mm/yyyy a las hh:mm some text -> remember to the user that sent it some text at actual hour/min.
-Miguelito recuerda a <@username/realName/name keyword in userNames.json> a las hh:mm some text -> remember to that user some text in selected date.
-Miguelito recuerda a <@username/realName/name keyword in userNames.json> el dd/mm/yyyy some text -> remember to that user some text in selected date.
-Miguelito recuerda a <@username/realName/name keyword in userNames.json> el dd/mm/yyyy a las hh:mm some text -> remember to that user some text in selected date.
-Miguelito recuerda <dateConfigName == mañana/pasado/pasadomañana/luego/después> some text -> remember to that user some text in selected date.
-Miguelito recuerda a <username> <dateConfigName == mañana/pasado/pasadomañana/luego/después> some text -> remember to that user some text in selected date.
-Miguelito recuerda a <username> el <weekday> a las hh:mm some text -> remember to that user some text in selected date.
+GograBot recuerda a las hh:mm some text -> remember to the user that sent it some text at that hour of same day or next day is the time was passed.
+GograBot recuerda el dd/mm/yyyy some text -> remember to the user that sent it some text at actual hour/min.
+GograBot recuerda el dd/mm/yyyy a las hh:mm some text -> remember to the user that sent it some text at actual hour/min.
+GograBot recuerda a <@username/realName/name keyword in userNames.json> a las hh:mm some text -> remember to that user some text in selected date.
+GograBot recuerda a <@username/realName/name keyword in userNames.json> el dd/mm/yyyy some text -> remember to that user some text in selected date.
+GograBot recuerda a <@username/realName/name keyword in userNames.json> el dd/mm/yyyy a las hh:mm some text -> remember to that user some text in selected date.
+GograBot recuerda <dateConfigName == mañana/pasado/pasadomañana/luego/después> some text -> remember to that user some text in selected date.
+GograBot recuerda a <username> <dateConfigName == mañana/pasado/pasadomañana/luego/después> some text -> remember to that user some text in selected date.
+GograBot recuerda a <username> el <weekday> a las hh:mm some text -> remember to that user some text in selected date.
 ```
 #### Add new data...
 ```
-Miguelito mete random <some text> -> add new data to "randomMsg" array
+GograBot mete random <some text> -> add new data to "randomMsg" array
 ...
 ```
 
