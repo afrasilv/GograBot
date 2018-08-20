@@ -1,0 +1,11 @@
+*.ini
+polealanstats.json
+polenordisstats.json
+poleraestats.json
+poleyonki.json
+*.cache-aalex12
+*.txt
+memories.json
+userNames.json
+classes/__pycache__/checkAndSendDataClass.cpython-36.pyc
+*.pyc
